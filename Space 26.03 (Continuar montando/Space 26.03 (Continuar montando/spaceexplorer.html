@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+    <title>Space Explorer</title>
+    <meta charset=”UTF-8”>
+    <meta name="description" content="Site do jogo Space Explorer">
+    <link rel="stylesheet" href="spaceexplorer.css">
+    <link rel="shortcut icon" href="Space/Icon.png">
+</head>
+  
+<body>
+    <header>
+        <div class="menu-page">
+            <nav> 
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#quem-somos">Quem somos</a>
+                    </li>
+                    <li>
+                        <a href="Preview">Preview</a>
+                    </li>
+                    <li>
+                        <a href="#Sobre-o-jogo">Sobre o jogo</a>
+                    </li>
+                    <li>
+                        <a href="#contato"> Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <section class="between2">
+                <h1 id="Spaceexplorer"></h1>
+                <p>
+                   <img src="headers.png" title="Space-explorer" alt="Space-explorer">
+                </p>
+            </section>
+        </main>
+
+        <section class="Quem-somos">
+            <h2 id="Quem somos">Sobre os criadores do jogo:</h2>   
+             <p>
+                Mariana Franco, dezenove anos, nascida e criada no Paraná, ao entrar no curso de 
+                TADS da faculdade integrado, recebeu como trabalho de semestre criar um jogo, a mesma
+                decidiu levar esse projeto pelo lado espacial, já que sempre gostou desse tipo de tema,
+                e assim nasceu <i style="color: greenyellow;"> Space Explorer</i> um jogo de plataforma e 
+                um site para apresentar o jogo, ou seja, esse site aqui :)<br>
+             </p>
+        </section>
+        
+
+        <section class="between">
+            <h2 id="sobre o jogo">Sobre o jogo:</h2>   
+             <p>
+                Usando as teclas “A”, “w” e “D” do teclado para mover o personagem pelo cenário,
+                 seu objetivo é pegar a maior quantidade de luas possível para fazer pontos, enquanto 
+                 os aliens tentam impedir seu progresso, é preciso chegar até o fim da fase onde terá 
+                 um portal pelo qual deve passar para sinalizar que a fase foi completa.<br>
+             </p>
+        </section>
+
+    
+        <section>
+         <h2 id="ficha técnica">Ficha Técnica:</h2>
+            <ul>
+                <li>Estilo: Singleplayer</li>
+                <li>Engine: Construct 3</li>
+                <li>Plataforma: PC</li>
+                <li>Mecânica: Plataforma</li>
+                <li>Dispositivos de Entrada: Teclado</li>
+             </ul>
+        </section>
+      
+
+        <section>
+            <h2 id="regras do jogo">Regras do jogo:</h2>
+            <ul>
+                <li>Só é possível mover o personagem com as teclas citadas antes, setas ou mouse não causaram efeitos.</li>
+                <li>Respeite as regras do jogo e não use trapaças, como hacks e entre outros.</li>
+                <li>O personagem principal está restrito ao layout, logo não adiantara tentar movê-lo para fora.</li>
+                <li>Apenas um player poderá jogar, então se for jogar com mais pessoas terá que ser alternando.</li>
+                <li>Aproveite o jogo e divirta-se explorando o espaço! </li>
+            </ul>
+        </section>
+        
+        <section class="tittle">
+            <h2 id="Personagens">Personagens</h2>
+            <!-- começo da grid-->
+            <div class="grid"> 
+                <div class="coluna"> <!--começo da coluna-->
+                    <img src="fd9f054d689fe704def84b14fba3d202.gif" Alt="Astronauta" title="Astronauta">
+                    <p> 
+                        <strong> O astronauta </strong>
+                    </p>
+                    <p> Personagem principal</p>
+                </div> <!--Fim da coluna -->
+
+                <div class="coluna"> <!--começo da coluna-->
+                    <img src="lua.png" Alt="Lua" title="Lua">
+                    <p> 
+                        <strong> Mini lua </strong>
+                    </p>
+                    <p> Pontos espalhados pelos cenários</p>
+                </div> <!--Fim da coluna -->
+
+                <div class="coluna"> <!--começo da coluna-->
+                    <img src="img.jpg" Alt="Diabrete" title="Diabrete">
+                    <p> 
+                        <strong> Inimigo </strong>
+                    </p>
+                    <p> Pequenos diabretes espalhados pelo mapa para atraplhar a missão</p>
+                </div> <!--Fim da coluna -->
+                <div class="coluna"> <!--começo da coluna-->
+                    <img src="images.png" Alt="Nave" title="Nave">
+                    <p> 
+                        <strong> Saída </strong>
+                    </p>
+                    <p> Sua passagem para casa, chegue até a nave com o máximo de luas e volte para casa</p>
+                </div> <!--Fim da coluna -->
+                
+
+
+        </section>
+
+        <h3><strong> Você acabou de ser recrutado pela <i style="color: crimson;">NASA</i>, pronto para explorar o espaço?</strong></h3>
+
+        <button>Jogar!</button>
+    </header>
+</body>
+
+    <footer>
+        <section id="contato">
+             <div class="centro">
+                 <h2>Entre em contato </h2>
+                    <form name="formcontato"> 
+                     <label for="nome"> Digite seu nome completo:</label>
+                     <input type="text" name="nome" id="nome" required>
+                     <br>
+                     <label for="email"> Digite seu e-mail: </label>
+                     <input type="email" name="email" id="email" required>
+                     <br>
+                     <label for="mensagem"> Digite sua mensagem: </label>
+                     <textarea name="mensagem" id="mensagem" required rows="10"> </textarea>
+                     <br>
+                        <button type="submit">
+                         Enviar mensagem
+                     </button>
+                     </form>
+                </div>
+        </section>
+    </footer>
+
+</html>
