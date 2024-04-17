@@ -1,0 +1,177 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    /* comportamento do scroll */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #7c7979;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    color:black;
+    text-align: center;
+}
+
+button {
+    background-color: #7ea4a7;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+#quem-somos {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+   
+}
+
+#sobre-o-jogo {
+    padding-top: 1px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+header {
+    /* cor de fundo */
+    background-color: #ccc;
+    /* largura */
+    width: 100%;
+    /* sombra */
+    box-shadow: 0 0 10px rgb(78, 78, 78);
+    /* fixo na tela */
+    position: fixed;
+    /* posicionar no topo */
+    top: 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    /* retirar a bolinha */
+    list-style: none;
+}
+
+header nav ul li {
+    /* alinha um ao lado do outro */
+    display: inline-block;
+    /* margem */
+    margin: 10px;
+    /* mudar o tamanho da fonte */
+    font-size: 20px;
+    /* mudar para maiúsculo */
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+header nav ul li a {
+    /* tirar sublinhado */
+    text-decoration: none;
+    /* color */
+    color: #666;
+}
+
+header nav ul li a:hover {
+    color: #000;
+}
+
+label {
+    /* negrito */
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input, textarea {
+    /* largura */
+    width: 100%;
+    /* borda */
+    border: 1px solid #CCC;
+    /* margem interna */
+    padding: 10px;
+    /* retirar os 20px dos 100% do width */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(236, 235, 235);
+    color: black;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.grid {
+    /* aplicar a grid */
+    display: grid;
+    /* configuro as colunas */
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid .coluna {
+    /* sombra */
+    box-shadow: 0 0 10px #CCC;
+    /* borda arredondada */
+    border-radius: 10px;
+    /* margem externa */
+    margin: 10px;
+}
+
+.grid .coluna img {
+    /* largura */
+    width: 100%;
+    /* arredondar cantos */
+    border-radius: 10px 10px 0 0 ;
+    height: 300px;
+    background-color: #000;
+}
+
+.grid .coluna p, #personagens p {
+    margin: 15px;
+    /* alinhar ao centro */
+    text-align: center;
+}
+
+.grid .ficha { 
+    margin: 250px 250px 250px 250px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px ;
+    height: 350px;
+    background-color: darkgray;
+    margin-top: 1px; /*isso foi teste saporra*/
+    margin-bottom: 5px; /*isso foi teste saporra*/
+    padding: 38px;
+}
+
+
+@media (min-width:460px) {
+    
+}
+

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Jogo de labirinto">
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="ghost.css">
+    <title>Ghost Maze</title>
+</head>
+<body>
+    <a href="javaescripit: mostrarMenu()" title="Menu" class="header-menu">
+        <i class="fa-solid fa-bars"></i>
+    </a>
+    <header>
+        <a href="ghostmaze.html" title="Home"></a>
+
+        <div class="menu-page">
+            <section class="menu-page"></section>
+                <nav> 
+                 <ul>
+                        <li>
+                            <a href="#home">
+                                <i class="fa-solid fa-house"></i>
+                                Página Inicial
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#quem-somos">Quem somos</a>
+                        </li>
+                        <li>
+                          <a href="#Personagens">Personagens
+
+                          </a>
+                         
+                        </li>
+                        <li>
+                            <a href="#sobre-o-jogo">Sobre o jogo</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#contato"> Contato
+                                
+                            </a>
+                        </li>
+                 </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+
+    <h1>Ghost Maze</h1>
+
+    <img src="header.png" alt="header" title="header">
+
+
+    <section id="quem-somos">
+        <div class="quemsomos">
+          <h2>Sobre os criadores do jogo:</h2>   
+            <p> Mariana Franco, dezenove anos, nascida e criada no Paraná, ao entrar no curso de</p>
+            <p>TADS da faculdade integrado, recebeu como trabalho de semestre criar um jogo, a mesma</p>
+            <p>decidiu levar esse projeto pelo lado da fantasia, mais especificamente pro lado do famoso "Pac man" </p>
+            <p>que foi muito presente em sua vida graças a ser o jogo favorito de sua mãe, que foi muito um tema muito</p>
+            <p>presente, e assim nasceu <i style="color: rgb(127, 189, 115);"> The ghost maze</i> um jogo de labirinto e um site para apresentar o jogo,</p>
+            <p>ou seja, esse site aqui. Os ensinamentos usados para montar os dois projetos foram </p>
+            <p>graças aos professores Juscelino e Burnes, respectivamente.</p>
+
+        </div>
+   </section>
+
+        <section id="sobre-o-jogo">
+          <div class="sbjogo">
+             <h2>Sobre o jogo:</h2>   
+                <p>Usando as teclas “A”, “w”, "S" e “D” do teclado para mover o personagem pelo cenário,</p>
+                <p>seu objetivo é pegar todos os pontos espalhados pela planta, enquanto alguns humanos,</p>
+                <p>exploradores de labirinto, tentam te impedir de passar pelo mapa ao pegar os baús,</p> 
+                <p>o fantasma muda de cor e por alguns segundos consegue destruir seus inimigos, mas</p>
+                <p>cuidado os mesmos inda podem renascer, e se te tocarem é game over.</p>
+          </div>
+
+          <div class="grid">
+              <div class="ficha">
+                    <h2>Ficha Técnica:</h2>
+                    <p>
+                        <ul>
+                            <p style="text-align: justify;">Estilo: Singleplayer</p>
+                            <p style="text-align: justify;">Engine: Construct 3</p>
+                            <p style="text-align: justify;">Plataforma: PC</p>
+                            <p style="text-align: justify;">Mecânica: Movimenação estratégica</p>
+                            <p style="text-align: justify;">Dispositivos de Entrada: Teclado</p>
+                  
+                         </ul>
+                     </p>
+               </div>     
+                <div class="regrasdojogo">
+                    <div class="ficha">
+                            <h2>Regras do jogo:</h2>
+                        <ul>
+                            <p style="text-align: justify;">Só é possível mover o personagem com as teclas citadas antes, setas ou mouse não causaram efeitos.</p>
+                            <p style="text-align: justify;">Respeite as regras do jogo e não use trapaças, como hacks e entre outros.</p>
+                            <p style="text-align: justify;">O personagem principal está restrito ao layout, logo não adiantara tentar movê-lo para fora.</p>
+                            <p style="text-align: justify;">Apenas um player poderá jogar, então se for jogar com mais pessoas terá que ser alternando.</p>
+
+                        </ul>
+                    </div>    
+                </div>
+            </div>    
+    </section>
+
+    <section id="Personagens">
+        <div class="Personagens">
+            <h2>Personagens</h2>
+            <p>Sprites presentes no jogo:
+            <div class="grid">
+                <div class="coluna">
+                    <img src="personagem.gif" alt="personagem" title="personagem">
+                    <p>
+                        <strong>Tommy</strong>
+                    </p>
+                    <p>
+                        Personagem principal
+                    </p>
+                </div> <!-- fim da coluna -->
+
+                <div class="coluna">
+                    <img src="inimigo.gif" alt="Inimigo" title="Inimigo">
+                    <p>
+                        <strong>Humano</strong>
+                    </p>
+                    <p>
+                        Inimigo
+                    </p>
+                </div> <!-- fim da 2 coluna -->
+
+                <div class="coluna">
+                    <img src="especial].jpg" alt="Especial" title="Especial">
+                    <p>
+                        <strong>Especial</strong>
+                    </p>
+                    <p>
+                        Baú que concede poderes
+                    </p>
+                </div> <!-- fim coluna 3 -->
+
+                <div class="coluna">
+                    <img src="background.png" alt="Labirinto" title="Labirinto">
+                    <p>
+                        <strong>Local</strong>
+                    </p>
+                    <p>
+                        Labirinto
+                    </p>
+                </div> <!-- fim coluna 4 -->
+            </div> <!-- fim da grid -->
+        </div>
+    </section>
+
+
+
+    <p> Pronto para enfrentar o labirinto? </p>
+    <button id="botao">Jogar</button>
+</body>
+
+<footer>
+    <section id="contato">
+        <div class="contato">
+            <h2>Entre em Contato</h2>
+            <form name="formContato">
+                <label for="nome">Digite seu nome completo:</label>
+                <input type="text" name="nome" id="nome" required>
+                <br>
+                <label for="email">Digite seu e-mail:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="mensagem">Digite sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" required rows="10"></textarea>
+                <br>
+                <button type="submit">
+                    Enviar Mensagem
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+</footer>
+
+
+<script src="script.js"></script>
+</html>
